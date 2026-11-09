@@ -27,7 +27,7 @@ from sklearn.metrics import (
     f1_score,
     roc_auc_score,
     confusion_matrix
-)
+)"https://growth-menarche-ai-playground-1.onrender.com","https://growth-menarche-ai-playground-1.onrender.com",
 
 from pytorch_engine import (
     train_network,
@@ -53,7 +53,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173"
+        "http://127.0.0.1:5173",
+        "https://growth-menarche-ai-playground-1.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
