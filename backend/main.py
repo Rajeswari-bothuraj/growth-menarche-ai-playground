@@ -27,7 +27,7 @@ from sklearn.metrics import (
     f1_score,
     roc_auc_score,
     confusion_matrix
-)"https://growth-menarche-ai-playground-1.onrender.com","https://growth-menarche-ai-playground-1.onrender.com",
+)
 
 from pytorch_engine import (
     train_network,
