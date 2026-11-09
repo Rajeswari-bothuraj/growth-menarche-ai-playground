@@ -1,0 +1,11 @@
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+datasets/*.csv
